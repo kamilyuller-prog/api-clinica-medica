@@ -4,6 +4,6 @@ export class Medico {
     this.nome = nome;
     this.crm = crm;
     this.especialidade = especialidade;
-    this.#id_medico = id;
+    this.#id_medico = id_medico;
     }
 }
