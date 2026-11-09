@@ -4,7 +4,7 @@ export class Consulta {
     constructor(data_hora, motivo){
         this.data_hora = data_hora;
         this.motivo = motivo;
-        this.#id_consulta = id;
+        this.#id_consulta = this.#id_consulta;
         this.status = this.#status;
     }
 }
